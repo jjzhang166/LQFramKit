@@ -55,4 +55,4 @@ HEADERS += \
     examplewidget.h
 
 RESOURCES += \
-    image.qrc
+    ExampleImage.qrc

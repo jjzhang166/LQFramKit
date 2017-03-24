@@ -43,5 +43,4 @@ SOURCES += \
     $$PWD/demo_customcombox.cpp \
     $$PWD/demo_splashscreen.cpp
 
-RESOURCES += \
-    $$PWD/image.qrc
+RESOURCES +=
