@@ -95,6 +95,14 @@ OS:windows7 64b
 
 ![自定义ComBox](http://git.oschina.net/kevinlq0912/LQFramKit/raw/master/screen/customComBox.png)
 
+#### 3. 自定义启动界面(带进度条显示)
+
+>自定义启动界面继承自`QSplashScreen`来实现了的，添加了进度条以便显示启动进度，预留出对应的时间接口，可以控制显示的的时间，这个时间根据具体的程序加载时间进行传递。
+
+![自定义启动界面](http://git.oschina.net/kevinlq0912/LQFramKit/raw/master/screen/Splashscreen.png)
+
+
+
 ### 辅助工具类测试
 >辅助工具类包含了常见的一些小工具，比如二维码生成、验证码生成、进制转换、数据通信(串口(232,485)、网络、CAN等)
  
