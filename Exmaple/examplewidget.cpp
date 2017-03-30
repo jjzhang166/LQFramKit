@@ -236,3 +236,8 @@ void ExampleWidget::on_pushButton_16_clicked()
     ui->textEdit->append ("右下角消息弹窗已经启动，15秒后将关闭");
 }
 
+
+void ExampleWidget::on_pushButton_17_clicked()
+{
+    //
+}

@@ -43,7 +43,7 @@
            <enum>QTabWidget::Rounded</enum>
           </property>
           <property name="currentIndex">
-           <number>0</number>
+           <number>3</number>
           </property>
           <property name="elideMode">
            <enum>Qt::ElideNone</enum>
@@ -381,6 +381,19 @@
                 </property>
                 <property name="text">
                  <string>性能监控</string>
+                </property>
+               </widget>
+              </item>
+              <item>
+               <widget class="QPushButton" name="pushButton_17">
+                <property name="minimumSize">
+                 <size>
+                  <width>90</width>
+                  <height>30</height>
+                 </size>
+                </property>
+                <property name="text">
+                 <string>二维码测试</string>
                 </property>
                </widget>
               </item>
