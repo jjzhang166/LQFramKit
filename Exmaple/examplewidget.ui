@@ -237,6 +237,42 @@
             </widget>
            </item>
            <item>
+<<<<<<< HEAD
+=======
+            <widget class="QPushButton" name="pushButton_14">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>Switch切换开关</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_15">
+             <property name="minimumSize">
+              <size>
+               <width>0</width>
+               <height>30</height>
+              </size>
+             </property>
+             <property name="text">
+              <string>自定义消息框</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+            <widget class="QPushButton" name="pushButton_16">
+             <property name="text">
+              <string>右下角消息框</string>
+             </property>
+            </widget>
+           </item>
+           <item>
+>>>>>>> temp
             <spacer name="horizontalSpacer">
              <property name="orientation">
               <enum>Qt::Horizontal</enum>

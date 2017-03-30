@@ -19,6 +19,12 @@
 #include "demo_lineedit.h"          //个性化搜索框
 #include "demo_customcombox.h"      //自定义ComBox
 #include "demo_splashscreen.h"      //启动界面
+<<<<<<< HEAD
+=======
+#include "nbaseswitchbutton.h"      //switch切换开关
+#include"demo_messagebox.h"         //自定义消息框
+#include "demo_rightdownmessagebox.h"//右下角消息弹窗
+>>>>>>> temp
 
 /*辅助工具测试demo*/
 #include "demo_perfmon.h"           //性能监测
@@ -182,3 +188,33 @@ void ExampleWidget::on_pushButton_13_clicked()
     QTimer::singleShot(20000,splash,SLOT(deleteLater()));
     ui->textEdit->append("启动界面已经启动，20秒后将关闭!");
 }
+<<<<<<< HEAD
+=======
+
+void ExampleWidget::on_pushButton_14_clicked()
+{
+    NBaseSwitchButton *switchBtn = new NBaseSwitchButton;
+    switchBtn->show ();
+
+    QTimer::singleShot (8000,switchBtn,SLOT(deleteLater()));
+    ui->textEdit->append ("switch切换开关已经启动，8秒后即将关闭!");
+}
+
+void ExampleWidget::on_pushButton_15_clicked()
+{
+    Demo_MessageBox *msg = new Demo_MessageBox("自定义消息框demo");
+    msg->show ();
+
+    QTimer::singleShot (18000,msg,SLOT(deleteLater()));
+    ui->textEdit->append ("消息框测试界面已经启动，18秒后将关闭");
+}
+
+void ExampleWidget::on_pushButton_16_clicked()
+{
+    Demo_RightDownMessageBox *msg = new Demo_RightDownMessageBox("右下角消息弹窗demo");
+    msg->show ();
+
+    QTimer::singleShot (15000,msg,SLOT(deleteLater()));
+    ui->textEdit->append ("右下角消息弹窗已经启动，15秒后将关闭");
+}
+>>>>>>> temp
