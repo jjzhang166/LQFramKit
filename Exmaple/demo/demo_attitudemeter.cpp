@@ -9,6 +9,8 @@ Demo_AttitudeMeter::Demo_AttitudeMeter(const QString &title, QWidget *parent) :
 
     this->setWindowTitle(title);
 
+    setAttribute(Qt::WA_DeleteOnClose);
+
     ui->horizontalSlider->setMinimum(-100);
     ui->horizontalSlider->setMaximum(100);
     ui->horizontalSlider->setSingleStep(1);

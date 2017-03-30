@@ -9,6 +9,8 @@ Demo_compassWidget::Demo_compassWidget(const QString &title, QWidget *parent) :
 
     this->setWindowTitle(title);
 
+    setAttribute(Qt::WA_DeleteOnClose);
+
     ui->horizontalSlider->setRange(0,360);
     ui->horizontalSlider->setValue(0);
     ui->horizontalSlider->setSingleStep(10);

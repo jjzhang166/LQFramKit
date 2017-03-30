@@ -14,6 +14,8 @@ Demo_ImageBrowser::Demo_ImageBrowser(const QString &title,
 
     this->setWindowTitle(title);
 
+    setAttribute(Qt::WA_DeleteOnClose);
+
     connect(ui->openButton, SIGNAL(clicked(bool)),
             this, SLOT(openButtonClicked()));
     connect(ui->originalSizeButton, SIGNAL(clicked(bool)),

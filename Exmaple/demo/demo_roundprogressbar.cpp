@@ -10,6 +10,8 @@ Demo_RoundProgressBar::Demo_RoundProgressBar(const QString &title,
 
     setWindowTitle(title);
 
+    setAttribute(Qt::WA_DeleteOnClose);
+
     init();
 }
 

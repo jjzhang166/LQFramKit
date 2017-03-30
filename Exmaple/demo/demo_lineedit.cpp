@@ -9,6 +9,8 @@ Demo_lineEdit::Demo_lineEdit(const QString &title, QWidget *parent) :
 
     this->setWindowTitle(title);
 
+    setAttribute(Qt::WA_DeleteOnClose);
+
     this->setFocusPolicy (Qt::ClickFocus);
 
     connect(ui->lineEdit,SIGNAL(signalSearchContent(QString)),

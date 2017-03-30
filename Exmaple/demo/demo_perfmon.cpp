@@ -1,4 +1,4 @@
-#include "demo_perfmon.h"
+﻿#include "demo_perfmon.h"
 #include "ui_demo_perfmon.h"
 
 #include <QTimer>
@@ -16,6 +16,8 @@ Demo_PerfMon::Demo_PerfMon(const QString &title, QWidget *parent) :
     this->init ();
 
     this->setWindowTitle (title);
+
+    setAttribute(Qt::WA_DeleteOnClose);
 }
 
 Demo_PerfMon::~Demo_PerfMon()

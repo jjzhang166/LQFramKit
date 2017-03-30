@@ -9,6 +9,8 @@ Demo_CustomComBox::Demo_CustomComBox(const QString &title,
     ui->setupUi(this);
 
     setWindowTitle(title);
+
+    setAttribute(Qt::WA_DeleteOnClose);
 }
 
 Demo_CustomComBox::~Demo_CustomComBox()

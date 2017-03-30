@@ -9,6 +9,8 @@ Demo_AirSpeedWidget::Demo_AirSpeedWidget(const QString &title,
     ui->setupUi(this);
 
     this->setWindowTitle(title);
+
+    setAttribute(Qt::WA_DeleteOnClose);
 }
 
 Demo_AirSpeedWidget::~Demo_AirSpeedWidget()

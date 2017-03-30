@@ -10,6 +10,8 @@ Demo_ColorProgressBar::Demo_ColorProgressBar(const QString &title,
 
     this->setWindowTitle(title);
 
+    setAttribute(Qt::WA_DeleteOnClose);
+
     init();
 }
 

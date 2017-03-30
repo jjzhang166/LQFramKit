@@ -6,7 +6,10 @@ Demo_qgauge::Demo_qgauge(const QString &title, QWidget *parent) :
     ui(new Ui::Demo_qgauge)
 {
     ui->setupUi(this);
+
     this->setWindowTitle(title);
+
+    setAttribute(Qt::WA_DeleteOnClose);
 
     ui->horizontalSlider->setRange(0,100);
 }

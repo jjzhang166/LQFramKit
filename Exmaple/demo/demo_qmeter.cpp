@@ -9,6 +9,8 @@ Demo_qmeter::Demo_qmeter(const QString &title, QWidget *parent) :
 
     this->setWindowTitle(title);
 
+    setAttribute(Qt::WA_DeleteOnClose);
+
     ui->horizontalSlider->setRange(0,100);
 }
 

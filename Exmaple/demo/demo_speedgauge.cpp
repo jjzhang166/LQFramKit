@@ -8,6 +8,8 @@ Demo_SpeedGauge::Demo_SpeedGauge(const QString &title, QWidget *parent) :
     ui->setupUi(this);
 
     this->setWindowTitle(title);
+
+    setAttribute(Qt::WA_DeleteOnClose);
 }
 
 Demo_SpeedGauge::~Demo_SpeedGauge()
