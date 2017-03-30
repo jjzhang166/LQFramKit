@@ -1,4 +1,4 @@
-#ifndef DEMO_RIGHTDOWNMESSAGEBOX_H
+﻿#ifndef DEMO_RIGHTDOWNMESSAGEBOX_H
 #define DEMO_RIGHTDOWNMESSAGEBOX_H
 
 #include <QDialog>
@@ -20,6 +20,10 @@ public:
 
 private slots:
     void on_pushButton_clicked();
+
+    void on_comboBox_currentIndexChanged(int index);
+
+    void on_comboBox_2_currentIndexChanged(int index);
 
 private:
     Ui::Demo_RightDownMessageBox *ui;

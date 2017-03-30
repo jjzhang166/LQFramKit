@@ -1,4 +1,4 @@
-#include "demo_rightdownmessagebox.h"
+﻿#include "demo_rightdownmessagebox.h"
 #include "ui_demo_rightdownmessagebox.h"
 
 #include "messageWidget/messagewidget.h"
@@ -26,11 +26,21 @@ void Demo_RightDownMessageBox::on_pushButton_clicked()
 {
     QString title,content;
 
-    if( (!ui->lineEdit->text ().isEmpty ()) &&
-            (!ui->lineEdit_2->text ().isEmpty ()))
+    if( (!ui->comboBox->currentText().isEmpty()) &&
+            (!ui->comboBox_2->currentText().isEmpty ()))
     {
-        title = ui->lineEdit->text ();
-        content = ui->lineEdit_2->text ();
+        title = ui->comboBox->currentText();
+        content = ui->comboBox_2->currentText();
     }
     m_pMessageBox->showMsg (":/image/RightMessageBox/title.png",title,content);
+}
+
+void Demo_RightDownMessageBox::on_comboBox_currentIndexChanged(int index)
+{
+    ui->comboBox_2->setCurrentIndex(index);
+}
+
+void Demo_RightDownMessageBox::on_comboBox_2_currentIndexChanged(int index)
+{
+    ui->comboBox->setCurrentIndex(index);
 }

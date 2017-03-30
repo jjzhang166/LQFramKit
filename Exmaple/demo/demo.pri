@@ -12,7 +12,6 @@ FORMS += \
     $$PWD/demo_colorprogressbar.ui \
     $$PWD/demo_customcombox.ui \
     $$PWD/demo_splashscreen.ui  \
-    $$PWD/demo_splashscreen.ui \
     $$PWD/demo_messagebox.ui \
     $$PWD/demo_rightdownmessagebox.ui
 
@@ -30,7 +29,6 @@ HEADERS += \
     $$PWD/demo_colorprogressbar.h \
     $$PWD/demo_customcombox.h \
     $$PWD/demo_splashscreen.h   \
-    $$PWD/demo_splashscreen.h \
     $$PWD/demo_messagebox.h \
     $$PWD/demo_rightdownmessagebox.h
 
@@ -47,7 +45,6 @@ SOURCES += \
     $$PWD/demo_roundprogressbar.cpp \
     $$PWD/demo_colorprogressbar.cpp \
     $$PWD/demo_customcombox.cpp \
-    $$PWD/demo_splashscreen.cpp \
     $$PWD/demo_splashscreen.cpp \
     $$PWD/demo_messagebox.cpp \
     $$PWD/demo_rightdownmessagebox.cpp
